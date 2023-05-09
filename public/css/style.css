@@ -1,0 +1,87 @@
+html,
+body{
+    background-color: #212A3E  !important ;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #F1F6F9 !important;
+    text-transform: capitalize;
+}
+
+.side-nav-conatiner{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    left: 10px;
+    height: 50%;
+    border-radius: 32px;
+    width: 200px;
+    background-color: #394867 !important;
+    z-index: 999999;
+}
+
+
+
+.pos-main-layout{
+    padding: 50px;
+    position: absolute;
+    left: 240px;
+    top: 60px;
+    width: 80%;
+    background-color: #394867 !important;
+    height: 100%;
+    border-radius: 32px;
+}
+
+.db-color{
+    color: #F1F6F9;
+    font-weight: bold;
+    font-size: 21px;
+    margin-left: 3px;
+}
+.nav-pills li a:hover{
+    background-color: #F1F6F9;
+    color: #394867 ;
+    font-weight: bolder;
+    width: 150px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.create-button{
+    background-color: #F1F6F9;
+    color: #212A3E;
+    border-radius: 18px;
+    width: 180px;
+    height: 50px !important;
+    opacity: 1;
+    transition: 0.4s;
+    font-weight: bold;
+}
+
+.create-button:hover {
+    background-color: #212A3E;
+    color: #F1F6F9 !important;
+
+}
+
+.table-dark td, .table-dark th, .table-dark thead th , .a-table
+{
+    background-color: #F1F6F9;
+    border-color:#212A3E;
+    color: #212A3E;
+}
+
+.a-table:hover{
+    color: #212A3E;
+}
+
+.bg-add{
+    font-size: 1.9rem;
+    padding: 10px;
+    width: 270px;
+    background-color: #F1F6F9;
+    border-radius: 32px;
+    color: #212A3E;
+}
